@@ -1,2 +1,2 @@
-# Codsoft-Task-1
+# Codsoft
 Used for August Intership
