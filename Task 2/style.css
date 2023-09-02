@@ -1,0 +1,107 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
+    clear: right;
+}
+header {
+    text-align: center;
+    background-color: black; 
+    color: antiquewhite;
+    padding: 25px;
+}
+#about {
+    text-align: top;
+    padding: 25px;
+    background-color: antiquewhite;
+    font-size: 50px;
+}
+#about img {
+    max-width: 100%;
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    float: right;
+}
+#skills {
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+}
+#skills h2 {
+    text-align: center;
+    font-size: 30px;   
+}
+#skills ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+#skills li {
+    margin: 5px 0;
+    font-size: 20px;
+}
+#projects {
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.project {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: black;
+}
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.project h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+#a h3{
+    color: orangered;
+}
+#b h3{
+    color: green;
+}
+#resume {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 25px;
+}
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; 
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#resume a:hover {
+    background-color: red; 
+}
+#contact {
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    background-color: antiquewhite;
+}
+#contact p {
+    font-size: 20px;
+    margin: 6px 0;
+}
+footer {
+    text-align: left;
+    background-color: black; 
+    color: antiquewhite;
+    padding: 12px;
+    font-size: 20px;
+}
